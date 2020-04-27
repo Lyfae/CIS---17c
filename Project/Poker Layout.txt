@@ -1,0 +1,54 @@
+Texas Hold'em Implementations Draft and Setup. 
+
+(Everything will be moved clockwise)
+
+1. Everyone needs to take turns being the dealer. At the end of the code, move the person who was initially the dealer to the person on the right. 
+	a. probally do a check and shift the round over using bool statement.
+2. Create the betting system. 
+	a. There are two betting systems, the big and the small blind. 
+		1. The small blind will be to the left of the dealer and then the big blind will be to the left of 		the person with the small blind. 
+		2. Ex. If the person who has the small blind bids 5, then the persons who has the big blind has to 			bid twice as much or more. It cant be less than the the person who bidded in the small blind. 
+3. Dealing the Cards.
+	a.Lets do a three player.
+4. Player's options.
+	a. Fold - If hand is not good, its like forefitting for the turn.
+	b. Call - Hand is decent so the player will match the price in the big blind. If blind = 10 then call 10. 
+	c. Raise - Now you are confident so you have to double the current bid of the previous bid (minimum) 
+	Now everything will continue clockwise. If the other player's bid are less than the current max bid, they 
+	will have a chance to match the highest bid or fold, call or even raise the pot even higher.
+	d. Now, everyone has the same amount in their bidding hand and the 1st round of betting ends. 
+	All the money will be going into the pot. 
+5. The Flop
+	a. Three cards will be set onto the table and the players will try to match the two cards that they have,	
+	with the three cards on the table to make the strongest hand. 
+6. 2nd round of betting
+	a. Starting from the left of the dealer, everyone will start their 2nd round of betting. This will repeat
+	Step 4 again. 
+7. Checking
+	a. Don't want to commit anything to the pot and you dont want to add anything either, so you check and the 
+	turn then goes to the next person. 
+8. Betting Continues
+	a. In this scenario, since the first person checks, but the 2nd person doesn't. What will happen is that 
+	since the small blind was 5 and the higher blind was 10, then the person has to bid atleast 10.
+	b. However in this case, the person that betted bet 200 chips and now the it continues around to the other 
+	players. The other players have the option to do things in step 4. 
+9. The turn
+	a. After the flop ends, there is a turn phase where an additional card is added to the the flop or onto the 
+	middle of the table. 
+10. 3rd round of betting. 
+	a. Player next to the dealer checks his hand and in this case, he is very confident so he will raise by 200 	chips. 
+	b. The other player that is still with him is confident as well so he raises it to 500 chips. 
+	c. Both players have the option to continue step 4. 
+	d. Then, one players call the bet and then all the money will the go into the pot. 
+11. The River
+	a. The fifth card is now placed onto the table after the betting cycle ends. 
+	b. The player will do their best to create the best hand out of the ones that they have and the ones on the 
+	table. 
+12. 4th round of betting
+	a. The remainin player can do step 4 again, and see if the other will drop out or not. 
+13. Turning the cards over
+	a. Both players will turn the cards over and the winning player will get the all the things in the pot! 
+
+
+*note to self*
+In the flop, turn and river, the top card will be burned so keep that in mind before the card that is delt gets dropeed. 
